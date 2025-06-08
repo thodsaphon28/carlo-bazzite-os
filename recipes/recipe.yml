@@ -36,6 +36,7 @@ modules:
       install:
         - org.mozilla.firefox
         - org.gnome.Loupe
+        - io.gitlab.librewolf-community
       remove:
         - org.gnome.eog
     user: {} # Also add Flathub user repo, but no user packages
@@ -45,8 +46,3 @@ modules:
       - 1password
       
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
-
-
-
-  - type: signing # this sets up the proper policy & signing files for signed images to work fully
-
